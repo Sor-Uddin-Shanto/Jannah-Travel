@@ -1,0 +1,1009 @@
+/* ===== Google Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Roboto:wght@400;500&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #B5CEB3;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Average Sans', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+/* ===== 01 Logo and main Menu ===== */
+
+.container.body-main-content {
+    padding: 0;
+}
+
+.body-main-content {
+    background-color: #fff;
+}
+
+.logo {
+    padding: 40px 0;
+}
+
+.logo a {
+    display: block;
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+header.main-menu {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-menu .nav-link {
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2c2f34 !important;
+    text-transform: uppercase;
+    padding: 10px 12px !important;
+}
+
+.main-menu .nav-link:hover {
+    background-color: #01B7F2;
+    color: #fff !important;
+}
+
+a.nav-link.follow {
+    font-size: 11px;
+    padding-top: 24px !important;
+}
+
+a.nav-link.icon {
+    padding: 20px 7px !important;
+}
+
+li.nav-item.active .nav-link {
+    background: #01B7F2;
+    color: #fff !important;
+}
+
+header.main-menu .navbar {
+    padding: 0;
+}
+
+.main-menu .nav-link {
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2c2f34 !important;
+    text-transform: uppercase;
+    padding: 20px 20px !important;
+}
+
+/* ===== 02 Home Slider ===== */
+
+.home-slider-item {
+    padding: 20px;
+    padding-top: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.home-slider-item-1{
+    background: url("../images/home-slider/3.jpg") no-repeat center/cover;
+}
+
+.home-slider-item-2{
+    background: url("../images/home-slider/2.jpg") no-repeat center/cover;
+}
+
+.home-slider-item-3{
+    background: url("../images/home-slider/4.jpg") no-repeat center/cover;
+}
+
+.home-slider-item-4{
+    background: url("../images/home-slider/1.jpg") no-repeat center/cover;
+}
+
+.home-slider-item::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+span.country {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    background: #01B7F2;
+    padding: 7px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+span.date {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home-slider-item a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ===== 03 trips ===== */
+
+.trips {
+    border: 1px solid #ddd;
+}
+
+.tript-trending {
+    background: url("../images/photos/11.jpg") no-repeat center/cover;
+    padding: 250px 20px 20px 20px;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.tript-trending-2{
+    background: url("../images/trending/trending.jpg") no-repeat center/cover;
+}
+
+.tript-trending::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.trips-photos-about {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.location {
+    background: #01B7F2;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #01b7f2;
+    font-weight: 600;
+    display: inline-block;
+}
+
+ul.trips-menu {
+    float: right;
+}
+
+
+.trips-menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.trips-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #2c2f34;
+    padding: 6px 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.trips-menu li a:hover {
+    background: #01b7f2;
+    color: #fff;
+}
+
+a.arrow {
+    border: 1px solid #ddd;
+}
+
+.title-bar {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.title-bar::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #01B7F2;
+    left: 0;
+    bottom: -3px;
+}
+
+.tript-trending h3 a {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Average Sans', sans-serif;
+}
+
+.tript-trending-footer {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.tript-trending-footer div {
+    display: inline-block;
+}
+
+.comment-like {
+    float: right;
+}
+
+.tript-right-item {
+    padding-left: 150px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.tript-right-item::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 110%;
+    width: 135px;
+    background-color: #ddd;
+    background: url("../images/tript/01.jpg") no-repeat center/cover;
+}
+
+
+.tript-right-item-1::before{
+    background: url("../images/tript/6.jpg") no-repeat center/cover;
+}
+
+.tript-right-item-2::before{
+    background: url("../images/tript/3.jpg") no-repeat center/cover;
+}
+
+.tript-right-item-3::before{
+    background: url("../images/tript/2.jpg") no-repeat center/cover;
+}
+
+.tript-right-item-4::before{
+    background: url("../images/tript/4.jpg") no-repeat center/cover;
+}
+
+.tript-right-item-5::before{
+    background: url("../images/tript/5.jpg") no-repeat center/cover;
+}
+
+.tript-right-item::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 110%;
+    width: 135px;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+
+.tript-right-item:hover::after {
+    display: block;
+}
+
+.tript-right-item h4 a {
+    font-family: 'Average Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c2f34;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.tript-right-item h4 a:hover {
+    color: #01B7F2;
+}
+
+.tript-right-item span {
+    font-size: 12px;
+}
+
+.tript-right-item h4 {
+    line-height: 15px;
+}
+
+/* ===== 04 Photos ===== */
+
+.photos {
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+.all-photos a {
+    display: inline-block;
+    width: 15%;
+    margin: 5px 3px;
+    position: relative;
+}
+
+.all-photos a::before {
+    position: absolute;
+    content: "\f03e";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    left: 50%;
+    top: 50%;
+    margin-top: -29%;
+    margin-left: -50%;
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    color: #ddd;
+    text-align: center;
+    line-height: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    padding-top: 3px;
+}
+
+.all-photos a:hover::before {
+    background: rgba(0, 0, 0, 0.4);
+    visibility: visible;
+    font-size: 35px;
+    transition: 0.3s;
+    padding-top: 10px;
+}
+
+/* ===== 05 About Me ===== */
+
+.about-me {
+    padding: 30px 30px 10px 30px;
+    border: 1px solid #ddd;
+    margin-right: 30px;
+    margin-left: -10px;
+}
+
+.about-me .title {
+    color: #2C2F34;
+}
+
+.about-me .title-bar::before {
+    background: #2C2F34;
+}
+
+.about-me-content {
+    text-align: center;
+}
+
+.about-me-content h4 {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 0 0 0;
+}
+
+.about-me-content p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ===== 06 Subscribe Box ===== */
+
+.subscribe-box {
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    margin-right: 30px;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.subscribe-box i {
+    display: block;
+    font-size: 40px;
+    color: #ddd;
+}
+
+.subscribe-box span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.subscribe-box span::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 10px;
+    height: 2px;
+    width: 50px;
+    background-color: #ddd;
+    margin-left: -25px;
+}
+
+.subscribe-box h4 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.subscribe-box input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px 5px 5px 40px;
+    color: #ddd;
+}
+
+.subscribe-box form {
+    position: relative;
+}
+
+.subscribe-box form::after {
+    position: absolute;
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: #ddd;
+    top: 4px;
+    left: 10px;
+}
+
+.btn {
+    width: 100%;
+    background: #01B7F2;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* ===== 07 Check ===== */
+
+.single-check {
+    position: relative;
+    padding: 300px 20px 20px 20px;
+    z-index: 1;
+}
+
+.single-check-1{
+    background: url("../images/check/1.jpg") no-repeat center/cover;
+}
+
+.single-check-2{
+    background: url("../images/check/2.jpg") no-repeat center/cover;
+}
+
+.single-check::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.single-check h4 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* ===== 08 Trending ===== */
+.trending {
+    border: 1px solid #ddd;
+}
+
+.trending-box span {
+    color: #767676;
+}
+
+.trending-box .comment {
+    float: right;
+}
+
+.trending-box h5 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.trending-box .author-date {
+    padding-top: 10px;
+}
+
+/* ===== 09 Recent Articles ===== */
+
+.articles-img {
+    width: 100%;
+    height: 190px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.articles-img-1 {
+    background: url("../images/articles/1.jpg") no-repeat center/cover;
+}
+
+.articles-img-2 {
+    background: url("../images/articles/2.jpg") no-repeat center/cover;
+}
+
+.articles-img-3 {
+    background: url("../images/articles/3.jpg") no-repeat center/cover;
+}
+
+.articles-img-4 {
+    background: url("../images/articles/4.jpg") no-repeat center/cover;
+}
+
+.articles-img-5 {
+    background: url("../images/articles/5.jpg") no-repeat center/cover;
+}
+
+.articles-img-6 {
+    background: url("../images/articles/6.jpg") no-repeat center/cover;
+}
+
+.articles-img span.country {
+    position: absolute;
+    top: 145px;
+    left: 258px;
+}
+
+.articles-img i {
+    font-size: 60px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    color: #fff;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.articles-img:hover i {
+    font-size: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    visibility: visible;
+}
+
+.articles-img::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.articles-img:hover::before {
+    opacity: 0.5;
+}
+
+.articles-single h3 a {
+    font-size: 20px;
+    color: #2c2f34;
+    padding: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.articles-single h3 a:hover {
+    color: #01B7F2;
+}
+
+.tript-trending-footer {
+    padding-top: 10px;
+}
+
+.articles-single p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666;
+}
+
+.articles-single {
+    padding-bottom: 30px;
+}
+
+.recent-articles {
+    border: 1px solid #ddd;
+}
+
+.load-more {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ===== 10 Follow Me ===== */
+
+.follow-me {
+    border: 1px solid #ddd;
+    padding-bottom: 80px;
+}
+
+.title2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2c2f34;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.col-lg-4 .title-bar::before {
+    background: #2c2f34;
+}
+
+ul.social-followers li a {
+    color: #fff;
+    background: #4080FF;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    margin: 0 8px;
+    transition: 0.3s;
+    position: relative;
+}
+
+ul.social-followers li a span {
+    color: #999;
+    position: absolute;
+    font-size: 13px;
+    left: 12px;
+    top: 63px;
+    line-height: 18px;
+    text-align: center;
+}
+
+ul.social-followers li a:hover {
+    opacity: 0.7;
+}
+
+ul.social-followers li:nth-child(2) a {
+    background: #40bff5;
+}
+
+ul.social-followers li:nth-child(3) a {
+    background: #ef4e41;
+}
+
+ul.social-followers li:nth-child(4) a {
+    background: #c13584;
+}
+
+/* ===== 10 Popular Articles ===== */
+
+.popular-articles {
+    border: 1px solid #ddd;
+}
+
+.number {
+    position: absolute;
+    background: #01b7f2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    top: -10px;
+    left: -15px;
+    border: 3px solid #fff;
+}
+
+/* ===== 10 advertisement ===== */
+
+.advertisement {
+    background: url("../images/articles/travel01.jpg") no-repeat center/cover;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin: 30px 5px;
+}
+
+.advertisement img {
+    width: 150px;
+}
+
+.advertisement::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.advertisement p {
+    font-size: 16px;
+}
+
+.advertisement .btn {
+    width: 65%;
+}
+
+.advertisement a {
+    background: orange;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 8px 13px;
+    margin-top: 40px;
+}
+
+.advertisement span {
+    position: absolute;
+    bottom: 38px;
+    right: 15px;
+    color: #ddd;
+    opacity: 0.8;
+}
+
+/* ===== 11 Follow Twitter ===== */
+
+.follow-twitter {
+    border: 1px solid #ddd;
+}
+
+.follow-twitter p {
+    font-size: 14px;
+}
+
+.follow-twitter .follow-us {
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff;
+    background: #01b7f2;
+    padding: 6px 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+    margin: 0 10px 0px 135px;
+}
+
+.follow-twitter .arrow {
+    font-size: 10px;
+    padding: 6px;
+    color: #a79a9a;
+}
+
+/* ===== 12 Footer ===== */
+
+.col-20 {
+    width: 20%;
+    padding: 15px 15px;
+    float: left;
+}
+
+.footer {
+    background: url("../images/footer/travel-footer-bg.jpg") no-repeat center/cover;
+    padding: 50px 30px 30px 30px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+/* .footer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.9;
+    z-index: -1;
+} */
+
+h4.footer-title {
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+h4.footer-title:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 15px;
+    height: 2px;
+    width: 50px;
+    background: #01B7F2;
+}
+
+.footer-tags li a {
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 4px 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.footer-post li {
+    width: 32%;
+    margin-bottom: 5px;
+}
+
+.footer-destinations li {
+    display: block;
+    text-transform: capitalize;
+    padding-left: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-destinations li::before{
+    position: absolute;
+    content: ">";
+    left: 0;
+    top: 0;
+}
+
+.footer-destinations li span {
+    position: absolute;
+    background: #01b7f2;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.footer-blog{
+    background: url("../images/tript/01.jpg") no-repeat center/cover;
+    padding: 110px 15px 5px 15px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-blog-1{
+    background: url("../images/footer/2.jpg") no-repeat center/cover;
+}
+
+.footer-blog-2{
+    background: url("../images/footer/3.jpg") no-repeat center/cover;
+}
+
+.footer-blog-3{
+    background: url("../images/footer/4.jpg") no-repeat center/cover;
+}
+
+.footer-blog-4{
+    background: url("../images/footer/5.jpg") no-repeat center/cover;
+}
+
+.footer-blog-5{
+    background: url("../images/footer/6.jpg") no-repeat center/cover;
+}
+
+.footer-blog::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.footer-blog h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.copyright {
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.social-icon {
+    float: right;
+    padding-top: 30px;
+}
+
+.social-icon a {
+    padding: 3px;
+}
+
